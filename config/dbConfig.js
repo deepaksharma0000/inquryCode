@@ -12,8 +12,8 @@ const pool = new Pool({
     password: "root",
     host: "localhost",
     port: 5432,
-    database: "kothari_clinic",
-    // database: "kothari",
+    database: "db",
+
 });
 
 pool.connect();
